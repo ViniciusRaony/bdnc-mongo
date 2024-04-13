@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+ruby '3.0.2'
+
+# gem "sinatra", "~> 4.0" # TODO: Implement with sinatra
+gem "mongoid", "~> 7.0"

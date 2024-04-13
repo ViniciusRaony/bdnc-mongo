@@ -1,0 +1,10 @@
+development:
+  clients:
+    default:
+      database: contact_manager
+      hosts:
+        - <%= ENV['MONGO_HOST'] %>:<%= ENV['MONGO_PORT'] %>
+      options:
+        user: <%= ENV['MONGO_INITDB_ROOT_USERNAME'] %>
+        password: <%= ENV['MONGO_INITDB_ROOT_PASSWORD'] %>
+        auth_source: admin
